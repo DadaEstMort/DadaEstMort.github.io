@@ -1,0 +1,131 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* En-tête */
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Hero */
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #e9ecef;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+/* Section About */
+.about {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les icônes */
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Footer styling */
+footer {
+    background: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav ul li {
+    margin: 0.5rem 0;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: underline;
+    color: #007BFF;
+}
+
+/* Style pour le bouton de téléchargement du CV */
+.cv-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.download-cv-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-cv-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.download-cv-button:active {
+    background-color: #004080;
+    transform: scale(0.95);
+}
