@@ -42,12 +42,22 @@ header {
     background: #e9ecef;
 }
 
+.hero h1 {
+    font-size: 3rem; /* Augmente la taille du titre */
+    font-weight: bold; /* Rend le texte plus accentué */
+}
+
+.hero p {
+    font-size: 1.5rem; /* Augmente la taille du paragraphe */
+    line-height: 1.8; /* Améliore l'espacement entre les lignes */
+}
+
 .profile-pic {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
 }
 
 /* Section About */
@@ -70,6 +80,7 @@ header {
 
 /* Footer styling */
 footer {
+    position: relative;
     background: #343a40;
     color: #fff;
     text-align: center;
@@ -128,4 +139,47 @@ footer {
 .download-cv-button:active {
     background-color: #004080;
     transform: scale(0.95);
+}
+
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #24292e;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    gap: 5px;
+}
+
+.github-button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+.github-button:active {
+    background-color: #000;
+    transform: scale(0.95);
+}
+
+/* Ajuster les images des projets */
+.project-logo {
+    display: block;
+    max-width: 100%;
+    max-height: 200px; /* Limite la hauteur à 200px */
+    margin: 0 auto 20px; /* Centre l'image et ajoute un espacement en bas */
+    object-fit: contain; /* Conserve les proportions de l'image */
+}
+
+/* Réduire et positionner la flèche dans le footer */
+.footer-fleche {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 30px; /* Taille réduite */
+    height: auto;
+    cursor: pointer;
 }
